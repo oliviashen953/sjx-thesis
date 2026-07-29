@@ -8,7 +8,7 @@
 #SBATCH -J NORMAL_brc
 #SBATCH -o NORMAL_brc.out
 #SBATCH -e NORMAL_brc.err
-#SBATCH --mail-user=oliviashen953@gmail.com
+#SBATCH --mail-user=YOUR_EMAIL
 
 # Load the MATLAB module
 module load matlab

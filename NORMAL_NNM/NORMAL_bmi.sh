@@ -8,7 +8,7 @@
 #SBATCH -J NORMAL_bmi
 #SBATCH -o NORMAL_bmi.out
 #SBATCH -e NORMAL_bmi.err
-#SBATCH --mail-user=oliviashen953@gmail.com
+#SBATCH --mail-user=YOUR_EMAIL
 
 # Load the MATLAB module
 module load matlab

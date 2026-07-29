@@ -8,7 +8,7 @@
 #SBATCH -J NORMAL_height
 #SBATCH -o NORMAL_height.out
 #SBATCH -e NORMAL_height.err
-#SBATCH --mail-user=oliviashen953@gmail.com
+#SBATCH --mail-user=YOUR_EMAIL
 
 # Load the MATLAB module
 module load matlab

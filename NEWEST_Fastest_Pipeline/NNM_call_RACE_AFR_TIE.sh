@@ -8,7 +8,7 @@
 #SBATCH -J NNM_call_RACE_AFR_TIE               # Job name
 #SBATCH -o NNM_call_RACE_AFR_TIE.out           # Standard output file
 #SBATCH -e NNM_call_RACE_AFR_TIE.err           # Standard error file
-#SBATCH --mail-user=oliviashen953@gmail.com
+#SBATCH --mail-user=YOUR_EMAIL
 
 # Load the MATLAB module
 module load matlab

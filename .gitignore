@@ -1,0 +1,10 @@
+# macOS Finder metadata
+.DS_Store
+
+# Jupyter / Python scratch
+.ipynb_checkpoints/
+__pycache__/
+
+# SLURM logs (the two committed under NEWEST_Fastest_Pipeline are kept deliberately)
+*.out
+*.err

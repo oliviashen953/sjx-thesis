@@ -8,7 +8,7 @@
 #SBATCH -J NNM_call_AGE65               # Job name
 #SBATCH -o NNM_call_AGE65.out           # Standard output file
 #SBATCH -e NNM_call_AGE65.err           # Standard error file
-#SBATCH --mail-user=oliviashen953@gmail.com
+#SBATCH --mail-user=YOUR_EMAIL
 
 # Load the MATLAB module
 module load matlab
