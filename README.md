@@ -170,3 +170,6 @@ The full reference list is in the thesis.
 My thanks to **Dr. Rui Duan**, who advised this thesis — for the question, for
 the guidance through every stage of it, and for the feedback that shaped what is
 here.
+
+Thanks also to **Dr. David Gleich** ([@dgleich](https://github.com/dgleich)) for
+his help with the nuclear norm minimisation code.
