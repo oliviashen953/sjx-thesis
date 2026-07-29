@@ -165,3 +165,9 @@ biased supervision.
 - **Pre-trained models** — the [PGS Catalog](https://www.pgscatalog.org/).
 
 The full reference list is in the thesis.
+
+## Acknowledgements
+
+My thanks to **Dr. Rui Duan**, who advised this thesis — for the question, for
+the guidance through every stage of it, and for the feedback that shaped what is
+here.
