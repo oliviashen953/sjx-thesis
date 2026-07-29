@@ -149,10 +149,11 @@ biased supervision.
 - **NNM** — Gleich, D. F. & Lim, L.-H. (2011). *Rank Aggregation via Nuclear
   Norm Minimization.* KDD '11, 60–68.
   [arXiv:1102.4821](https://arxiv.org/abs/1102.4821).
-  The MATLAB routine called throughout this repository, `ssmcr(A, 'skewtype',
-  ...)`, is the implementation accompanying that paper. Its `skewtype` settings
-  `lo`, `am`, `bc` and `sb` are the `logs` / `ams` / `bcs` / `sbs` variants
-  compared in this work.
+  The MATLAB routine called throughout this repository — `ssmcr(A, 'skewtype',
+  ...)` from the authors' `skew-nuclear` code — is their implementation, used
+  here with the author's permission. The `skewtype` settings `lo`, `am`, `bc`
+  and `sb` are the `logs` / `ams` / `bcs` / `sbs` variants compared in this
+  work.
 - **Singular value projection**, the matrix-completion solver underneath NNM —
   Jain, P., Meka, R. & Dhillon, I. (2010). *Guaranteed Rank Minimization via
   Singular Value Projection.* NeurIPS.
