@@ -140,13 +140,28 @@ of the conversion step · `SVD` = the singular-value-decomposition variant.
 - `NNM_call_AGE65.out` is a captured solver log (iteration, residual, RMSE) —
   useful only for seeing convergence behaviour.
 
-## Where the methods come from
+## Credit
 
-None of the methods here are new. MC4 comes from the rank-aggregation
-literature, MCT from DeConde et al., nuclear norm minimisation via singular
-value projection from the matrix-completion literature, and the pre-trained
-models from the [PGS Catalog](https://www.pgscatalog.org/). The thesis carries
-the full reference list; this repository is the code that applied them to
-polygenic risk scores.
+None of the aggregation methods are new here. What this repository contributes
+is applying them to polygenic risk scores and testing what happens under
+biased supervision.
 
-The thesis itself is unpublished coursework — a Master's thesis, not a paper.
+- **NNM** — Gleich, D. F. & Lim, L.-H. (2011). *Rank Aggregation via Nuclear
+  Norm Minimization.* KDD '11, 60–68.
+  [arXiv:1102.4821](https://arxiv.org/abs/1102.4821).
+  The MATLAB routine called throughout this repository — `ssmcr(A, 'skewtype',
+  ...)` from the authors' `skew-nuclear` code — is their implementation, used
+  here with the author's permission. The `skewtype` settings `lo`, `am`, `bc`
+  and `sb` are the `logs` / `ams` / `bcs` / `sbs` variants compared in this
+  work.
+- **Singular value projection**, the matrix-completion solver underneath NNM —
+  Jain, P., Meka, R. & Dhillon, I. (2010). *Guaranteed Rank Minimization via
+  Singular Value Projection.* NeurIPS.
+- **MC4** — Dwork, C., Kumar, R., Naor, M. & Sivakumar, D. (2001). *Rank
+  Aggregation Methods for the Web.* WWW '01.
+- **MCT** — DeConde, R. P. et al. (2006). *Combining Results of Microarray
+  Experiments: A Rank Aggregation Approach.* Statistical Applications in
+  Genetics and Molecular Biology.
+- **Pre-trained models** — the [PGS Catalog](https://www.pgscatalog.org/).
+
+The full reference list is in the thesis.
